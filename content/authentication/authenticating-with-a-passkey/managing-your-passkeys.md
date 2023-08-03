@@ -59,7 +59,7 @@ Before starting the upgrade procedure, make sure that you are using the device t
 
 Many passkeys support syncing, where your passkey is backed up by the provider's account system (iCloud, Google account, password manager, etc.). If you ever lose your device, you can recover your synced passkeys by signing in to your passkey provider.
 
-In some cases, your passkey may be "device-bound", which means the passkey is not allowed to be synced and is not backed up by the cloud. For example, you can register user-verifying hardware keys (such as a Yubikey Bio) as a passkey, but that passkey will not be synced. If your passkey is device-bound, and you lose or wipe the device, the passkey cannot be recovered.
+In some cases, your passkey may be "device-bound", which means the passkey can not be synced and is not backed up by the cloud. For example, you can register FIDO2 hardware security keys (such as a YubiKey) as a passkey, but that passkey will not be synced. If your passkey is device-bound, and you lose or wipe the device, the passkey cannot be recovered.  If you are only using device-bound passkeys, it is a best practice to register at least two passkeys on different devices, in case you lose access to one.
 
 You can see which of your passkeys are synced, and which are device-bound, under "Passkeys" in your account security settings. Synced passkeys will include a blue `Synced` label next to their name.
 
