@@ -19,13 +19,13 @@ You must first add a passkey to your account before you can use the passkey to s
 
 Once you have added a passkey to your account, you can use the passkey to sign in safely and securely to {% data variables.product.prodname_dotcom_the_website %} without having to enter your password or perform two-factor authentication (2FA). Some passkeys can be synced across devices and browsers, once you have added a synced passkey on one device, the passkey is available to use across multiple devices using the same passkey provider.
 
-Passkeys can also be used across nearby devices. For example, perhaps you want to sign in to {% data variables.product.prodname_dotcom_the_website %} using a laptop that's not set up with a passkey. If you have registered your phone as a passkey, you might opt to scan a QR code, or trigger a push notification to your phone, in order to complete the sign in securely. For more information, see "[Signing in with a passkey using a nearby device](#signing-in-with-a-passkey-using-a-nearby-device)."
+Some authenticators allow passkeys to be used with nearby devices. For example, perhaps you want to sign in to {% data variables.product.prodname_dotcom_the_website %} using a bluetooth-enabled laptop that's not set up with a passkey. If you have registered a passkey on your phone, you might opt to scan a QR code, or trigger a push notification to your phone, in order to complete the sign in securely.  For more information, see "[Signing in with a passkey using a nearby device](#signing-in-with-a-passkey-using-a-nearby-device)."
 
 ## Signing in with a passkey linked to your primary device
 
 1. Navigate to the login page for {% data variables.product.prodname_dotcom_the_website %} at [https://github.com/login](https://github.com/login).
 1. Click **{% octicon "passkey-fill" aria-hidden="true" %} Sign in with a passkey**.
-1. Follow the prompts of the passkey provider to select a passkey that is accessible from the device you are using, and complete the authentication process. For example, when prompted, you might touch a fingerprint sensor or enter your PIN.
+1. Follow the prompts of your browser or platform to select a passkey that is accessible from the device you are using, and complete the authentication process. For example, when prompted, you might touch a fingerprint sensor or enter your PIN.
 
 ## Signing in with a passkey using a nearby device
 
