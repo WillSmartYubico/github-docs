@@ -17,7 +17,7 @@ shortTitle: Sign in with a passkey
 
 You must first add a passkey to your account before you can use the passkey to sign in to {% data variables.product.prodname_dotcom_the_website %}. For more information, see "[AUTOTITLE](/authentication/authenticating-with-a-passkey/managing-your-passkeys)."
 
-Once you have added a passkey to your account, you can use the passkey to sign in safely and securely to {% data variables.product.prodname_dotcom_the_website %} without having to enter your password or perform two-factor authentication (2FA). Since passkeys can be synced across devices and browsers, once you have added a synced passkey on one device, the passkey is available to use across multiple devices using the same passkey provider.
+Once you have added a passkey to your account, you can use the passkey to sign in safely and securely to {% data variables.product.prodname_dotcom_the_website %} without having to enter your password or perform two-factor authentication (2FA). Some passkeys can be synced across devices and browsers, once you have added a synced passkey on one device, the passkey is available to use across multiple devices using the same passkey provider.
 
 Passkeys can also be used across nearby devices. For example, perhaps you want to sign in to {% data variables.product.prodname_dotcom_the_website %} using a laptop that's not set up with a passkey. If you have registered your phone as a passkey, you might opt to scan a QR code, or trigger a push notification to your phone, in order to complete the sign in securely. For more information, see "[Signing in with a passkey using a nearby device](#signing-in-with-a-passkey-using-a-nearby-device)."
 
