@@ -35,7 +35,7 @@ For information on how to remove a passkey from your account, see "[Removing a p
 
 {% note %}
 
-**Note:** You can use the procedure to upgrade a platform authenticator (such as Mac TouchID, or Windows Hello) from a security key into a passkey. Cross-platform authenticators (such as hardware keys) cannot be upgraded, but you can still register a hardware key as a passkey, so long as the hardware key is user-verifying. For example, the Yubikey Bio is a user-verifying hardware key that is passkey eligible.
+**Note:** You can use the procedure to upgrade a platform authenticator (such as Mac TouchID, or Windows Hello) from a security key into a passkey. Cross-platform authenticators (such as FIDO2 hardware security keys) cannot be upgraded, but you can still use a FIDO2 hardware security key to register a passkey, so long as it supports passkeys, and a PIN is set. For example, the YubiKey Security Key series are FIDO2 hardware security keys that support passkeys.
 
 {% endnote %}
 
